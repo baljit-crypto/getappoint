@@ -2,15 +2,20 @@ import React,{useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import { inviterRoute } from "../utils/ApiRoutes";
 import ListItems from '../components/ListItems';
+import axios from 'axios';
 function GetPage() {
         const [inviter, setInviter] = useState([]);   
 
         useEffect(() => {
+
                      fetch(inviterRoute)
                     .then((res) => res.json())
                     .then((data) => {
                         setInviter(data);
+                    }).catch((err) => {  
+                            console.log(err.message);
                     })
+
                     
                     return() => {
                         console.log("unmounted");

@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
-import GiveMode from './pages/GiveAppointment';
+import GivePage from './pages/GiveAppointment';
 import Homepage from './pages/Homepage';
 import GetPage from './pages/GetAppointment';
 import InviterPage from './pages/InviterPage';
@@ -26,7 +26,7 @@ function App() {
       <Route path="/" element={<Homepage/>}/>
       <Route path='/Login' element={<Login/>}/>
       <Route path='/Register' element={<Register/>}/>
-      <Route path="/GiveMode" element={<GiveMode/>}/>
+      <Route path="/GivePage" element={<GivePage/>}/>
       <Route path="/GetPage" element={<GetPage/>}/>
       <Route path="/inviter/:id" element={<InviterPage/>}/>
       </Routes>
