@@ -1,0 +1,20 @@
+ #dropdown-basic-button{
+    color: #000000;
+    background: transparent;
+    border-style: none;
+    padding: 0 !important;
+}
+
+ #dropdown-basic-button:hover{
+    color: #ffffff;
+}
+
+ #dropdown-basic-button:focus{
+    border-style: none;
+    background-color: transparent;
+}
+
+#dropdown-basic-button:active{
+        border-style: none;
+        background-color: transparent;
+}

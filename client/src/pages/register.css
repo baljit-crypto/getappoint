@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.formContainer{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+    justify-content: center;
+    height: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 4rem;
+    border-radius: .5rem;
+    gap: 1rem;
+}
+.brand h1{
+    color: #6a702c;
+}
+input{
+    padding: .7rem;
+    border: .1rem solid black;
+    border-radius: .4rem;
+    background-color: transparent;
+    color: #6a702c;
+    font-size: 1rem;
+}
+input:focus{
+    border: .1rem solid #BABD8D;
+}
+
+span{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+span a{
+    text-decoration: none;
+    color: #6a702c;
+   
+}
+
+.cliploader{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+
+}
