@@ -93,7 +93,6 @@ function GiveMode() {
                 <label htmlFor="fileUpload" className="customFileUpload">
                 <BsPersonFill size='100%' color='#848949'/>
                 </label>
-                
                  <input type='file' id="fileUpload" onChange={onChangeImage}/>
                  {/* <span>(jpeg, jpg, png)</span> */}
                 </>

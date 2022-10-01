@@ -14,6 +14,7 @@ import './pages/getAppointment.css';
 import './components/listItems.css';
 import './components/dropdown.css';
 import './pages/inviterPage.css';
+import './components/selectDropdown.css';
 import Navbar from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  './App.css';

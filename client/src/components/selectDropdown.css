@@ -1,0 +1,23 @@
+.selectDropdown{
+    padding: 1rem 2rem;
+    color: #000000;
+    background-color: #848949;
+    border-style: none;
+    border-radius: .4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.selectDropdown:hover{
+    color: #ffffff;
+}
+
+.selectDropdown:focus{
+    background-color: #848949;
+}
+
+.selectDropdown:active{
+        background-color: #848949;
+}

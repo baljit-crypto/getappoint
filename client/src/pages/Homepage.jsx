@@ -9,9 +9,7 @@ function Homepage() {
         <div className="banner_container">
           <h1>Appointment App</h1>
           <h3>Scheduling that makes your work effortless</h3>
-          <div className="btn">
             {user ? <SelectDropdown /> : <Link to="/login">Get Started</Link>}
-          </div>
         </div>
         <div className="content_container">
           <div className="content_title">
