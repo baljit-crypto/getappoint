@@ -85,7 +85,7 @@ function Login() {
           />
           <button type="submit">Login</button>
           <span>
-            Not have an account? <Link to="/Register">Register</Link>
+            Not have an account? <Link to="/register">Register</Link>
           </span>
         </form>
         <ClipLoader

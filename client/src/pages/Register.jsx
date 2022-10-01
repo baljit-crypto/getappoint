@@ -129,7 +129,7 @@ function Register() {
           />
           <button type="submit">Create User</button>
           <span>
-            already have an account? <Link to="/Login">Login</Link>
+            already have an account? <Link to="/login">Login</Link>
           </span>
         </form>
         <ClipLoader

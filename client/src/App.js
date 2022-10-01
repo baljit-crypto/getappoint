@@ -24,10 +24,10 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<Homepage/>}/>
-      <Route path='/Login' element={<Login/>}/>
-      <Route path='/Register' element={<Register/>}/>
-      <Route path="/GivePage" element={<GivePage/>}/>
-      <Route path="/GetPage" element={<GetPage/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/register' element={<Register/>}/>
+      <Route path="/givepage" element={<GivePage/>}/>
+      <Route path="/getpage" element={<GetPage/>}/>
       <Route path="/inviter/:id" element={<InviterPage/>}/>
       </Routes>
     </BrowserRouter>

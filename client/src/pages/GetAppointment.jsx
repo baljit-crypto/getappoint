@@ -7,7 +7,7 @@ function GetPage() {
         const [inviter, setInviter] = useState([]);   
 
         useEffect(() => {
-
+                    console.log(inviterRoute)
                      fetch(inviterRoute)
                     .then((res) => res.json())
                     .then((data) => {

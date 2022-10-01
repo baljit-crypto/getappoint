@@ -23,11 +23,12 @@
 
 .nav > .btn:hover{
   background-color: #969c4c;
-  color: #ffffff;
+  color: #000000;
 }
 
 button{
   padding: 1rem 2rem;
+  color: #000000;
   background-color: #848949;
   border-style: none;
   border-radius: .4rem;

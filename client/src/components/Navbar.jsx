@@ -18,12 +18,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/About" className="nav-link">
+              <Link to="/about" className="nav-link">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Contact" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact
               </Link>
             </li>
@@ -31,7 +31,7 @@ function Navbar() {
               {user ? (
                 <Dropdown_btn />
               ) : (
-                <Link to="/Login" className="nav-link">
+                <Link to="/login" className="nav-link">
                   Get Started
                 </Link>
               )}
